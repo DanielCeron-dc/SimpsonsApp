@@ -54,9 +54,6 @@ export const CharactersScreen: React.FC<Props> = ({navigation}) => {
           setPage(1);
         } else {
           const data = await simpsonsApiService.getCharacters(pageNum);
-          if (__DEV__) {
-            console.log('Loaded characters:', data.length);
-          }
 
           if (activeRequestId.current !== requestId) {
             return;

@@ -2,7 +2,7 @@ export interface EpisodeDto {
   id: number;
   season: number;
   episode_number: number;
-  title: string;
+  name: string;
   air_date?: string;
   synopsis?: string;
   description?: string;

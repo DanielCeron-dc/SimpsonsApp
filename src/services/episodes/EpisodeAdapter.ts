@@ -8,7 +8,7 @@ export class EpisodeAdapter extends BaseAdapter<EpisodeDto, Episode> {
       id: data.id,
       season: data.season,
       episode_number: data.episode_number,
-      title: data.title,
+      title: data.name,
       air_date: data.air_date,
       synopsis: data.synopsis ?? data.description,
       thumbnail_path: data.thumbnail_path ?? data.image_path,
