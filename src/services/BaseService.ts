@@ -1,5 +1,5 @@
 import {AxiosRequestConfig} from 'axios';
-import {BaseAdapter} from './adapters/BaseAdapter';
+import {BaseAdapter} from './BaseAdapter';
 
 export interface HttpClient {
   get<T>(url: string, config?: AxiosRequestConfig): Promise<T>;

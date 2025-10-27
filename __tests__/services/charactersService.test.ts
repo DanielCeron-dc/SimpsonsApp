@@ -3,8 +3,8 @@ jest.mock('@react-native-async-storage/async-storage', () =>
 );
 
 import {CharactersService} from '../../src/services/characters/CharactersService';
-import CharacterAdapter from '../../src/services/adapters/characters/CharacterAdapter';
-import {CharacterDto, CharactersPageDto} from '../../src/services/adapters/characters/dto';
+import CharacterAdapter from '../../src/services/characters/CharacterAdapter';
+import {CharacterDto, CharactersPageDto} from '../../src/services/characters/dto';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const CACHE_KEY = '@simpsons_app:characters_cache';

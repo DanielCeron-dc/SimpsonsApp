@@ -1,7 +1,7 @@
 import apiClient from '../apiClient';
 import BaseService, {HttpClient} from '../BaseService';
-import EpisodeAdapter from '../adapters/episodes/EpisodeAdapter';
-import {EpisodeDto, EpisodesPageDto} from '../adapters/episodes/dto';
+import EpisodeAdapter from './EpisodeAdapter';
+import {EpisodeDto, EpisodesPageDto} from './dto';
 import {Episode} from '../../types';
 
 export class EpisodesService extends BaseService<EpisodeDto, Episode> {

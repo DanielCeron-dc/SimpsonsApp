@@ -1,6 +1,6 @@
 import {BaseAdapter} from '../BaseAdapter';
 import {CharacterDto} from './dto';
-import {Character} from '../../../types';
+import {Character} from '../../types';
 
 export class CharacterAdapter extends BaseAdapter<CharacterDto, Character> {
   adapt(data: CharacterDto): Character {

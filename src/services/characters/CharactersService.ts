@@ -1,8 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import apiClient from '../apiClient';
 import BaseService, {HttpClient} from '../BaseService';
-import CharacterAdapter from '../adapters/characters/CharacterAdapter';
-import {CharacterDto, CharactersPageDto} from '../adapters/characters/dto';
+import CharacterAdapter from './CharacterAdapter';
+import {CharacterDto, CharactersPageDto} from './dto';
 import {Character} from '../../types';
 
 const DEFAULT_IMAGE_HOST = 'https://cdn.thesimpsonsapi.com';

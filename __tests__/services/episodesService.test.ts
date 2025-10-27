@@ -1,6 +1,6 @@
 import {EpisodesService} from '../../src/services/episodes/EpisodesService';
-import EpisodeAdapter from '../../src/services/adapters/episodes/EpisodeAdapter';
-import {EpisodeDto, EpisodesPageDto} from '../../src/services/adapters/episodes/dto';
+import EpisodeAdapter from '../../src/services/episodes/EpisodeAdapter';
+import {EpisodeDto, EpisodesPageDto} from '../../src/services/episodes/dto';
 
 const createPageDto = (
   results: EpisodeDto[],
